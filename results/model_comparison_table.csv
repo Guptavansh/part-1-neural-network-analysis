@@ -1,0 +1,7 @@
+Experiment,Hidden Layers,Neurons,Learning Rate,Batch Size,Activation,Test Accuracy,F1 (Churn),Recall (Churn)
+Baseline,2,64,0.001,32,relu,98.50%,0.2500,0.1667
+Deeper Network,3,64,0.001,32,relu,98.00%,0.2000,0.1667
+Wider Network,2,128,0.001,32,relu,98.00%,0.2000,0.1667
+High LR,2,64,0.01,32,relu,98.00%,0.2000,0.1667
+Small Batch,2,64,0.001,16,relu,98.25%,0.2222,0.1667
+Tanh Activation,2,64,0.001,32,tanh,98.50%,0.0000,0.0000
